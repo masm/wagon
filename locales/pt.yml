@@ -1,4 +1,4 @@
-pt-BR:
+pt:
   locomotive:
     locales:
       en: Inglês
@@ -116,9 +116,13 @@ pt-BR:
       delimiter: '. '
     currency:
       format:
-        unit: 'R$'
+        unit: '€'
+        format: '%n%u'
+        separator: ","
+        delimiter: ""
         precision: 2
-        format: '%n %u'
+        significant: false
+        strip_insignificant_zeros: false
     human:
       format:
         precision: 2
